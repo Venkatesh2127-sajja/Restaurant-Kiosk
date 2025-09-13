@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/Restaurant
+    username: root
+    password: Sajja@2025
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+app:
+  cors:
+    allowedOrigin: http://localhost:3000
